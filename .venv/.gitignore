@@ -1,0 +1,28 @@
+# Віртуальне оточення
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Бази даних
+*.db
+*.sqlite3
+
+# Логи
+*.log
+
+# Файли налаштувань середовища
+.env
+
+# RabbitMQ / Redis / Docker
+docker-compose.override.yml
